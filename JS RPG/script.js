@@ -166,7 +166,7 @@ function buyHealth() {
 
 function buyWeapon() {
   let weapon = weapons[nextIndex];
-  let price = weapon.power * 2.5;
+  let price = weapon.power * 1.5;
 
   // Checking if the player has enough gold.
   if (gold >= price)
